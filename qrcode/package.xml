@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.0" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Image_QRCode</name>
+ <channel>pear.php.net</channel>
+ <summary>A QR (2D) barcode image generator.</summary>
+ <description>A QR (Quick Read) 2-dimensional barcode image generator.</description>
+ <lead>
+  <name>Rich Sage</name>
+  <user>richsage</user>
+  <email>rich.sage@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2010-01-04</date>
+ <time>19:29:54</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.gnu.org/licenses/lgpl.html">LGPL</license>
+ <notes>
+First initial release.
+ </notes>
+ <contents>
+  <dir baseinstalldir="." name="/">
+   <file baseinstalldir="." md5sum="a3982acb2a32984db330533b687aa230" name="data/qrv1_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="2b86d73d95ed25b5295a61d2397d6951" name="data/qrv1_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="0811ba868e1f67fdcb72f4bc92d30a3d" name="data/qrv1_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="9aea93e3f7df53fdd7fb511c14032397" name="data/qrv1_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="b9bd2c0ce0e65814624cff33dfc94a9e" name="data/qrv2_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="3fedd554094c289f459a6833de43f0d6" name="data/qrv2_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="2a0a9a2233879f0b53b278c6f2c6f05e" name="data/qrv2_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="5eda3aec01d5fcb5bb1d4206c5bd05dc" name="data/qrv2_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="dba5aac8b3b17f6cb0376f46ac22d3ad" name="data/qrv3_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="e5d4c22c791507d06416a1a2f18c75bc" name="data/qrv3_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="4d79c5a9906ada366ce44b2b835a3c84" name="data/qrv3_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="bab6a761f87bc0c274c59a8a971c3088" name="data/qrv3_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="1d83faf3fd26345c0f9b0650ce5a1e7c" name="data/qrv4_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="b7e043ff19ce58a57d40a6ef6f1f50c1" name="data/qrv4_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="50b3390cf2b716bdbac65110348ef167" name="data/qrv4_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="1b7a52dcfede5727744907b92f419d95" name="data/qrv4_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="f004018b437c672208b65320014d88c8" name="data/qrv5_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="efde9090261deeb9b9e3eed12683faea" name="data/qrv5_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="2c3545ba09d824ae2c2d34dde7f11461" name="data/qrv5_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="14c07a55a197ab4af0acef77f345a6b8" name="data/qrv5_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="ed4782e02bc17351e165c0775c645aa0" name="data/qrv6_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="69699889976eebe59971957781e9e6b9" name="data/qrv6_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="cc55d4b84a840263fe95966017e16b2f" name="data/qrv6_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="3a8282ed74721b28941f384bf6d37680" name="data/qrv6_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="1afcae3f434e934304608f2128998244" name="data/qrv7_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="ad5b98379a90294bc24b7736657829fa" name="data/qrv7_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="aed2ded20098605f7b42f76d11000a29" name="data/qrv7_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="1be2691c3cab8e6f9e9f2bf2424f8c02" name="data/qrv7_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="80eae35513ac788c1ba9e4af3ae686a3" name="data/qrv8_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="8055c06a583c37b5b47fa4b2baf8cdea" name="data/qrv8_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="0023c3ce268e218ca820148ae684aedc" name="data/qrv8_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="118005bcce4d51d9405c37e2095f1b48" name="data/qrv8_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="fb77d255c3c35f20dec39125fe7d5fe6" name="data/qrv9_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="22857ff6e2ebfc93eeb4d109196b5385" name="data/qrv9_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="6e1cb54e4465099571c4fea6520ec6c2" name="data/qrv9_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="a5e910aaff55ba9d682c0319562d8ec4" name="data/qrv9_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="f8893a833145b3ce7ced83208b48c9f2" name="data/qrv10_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="81e751b9c723943d413654290c890388" name="data/qrv10_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="e31c92f3273994f477cd46a86ac2f63b" name="data/qrv10_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="9e9e5a26c0833bb53f93f4ffcf85e1a9" name="data/qrv10_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="7d8458a3b4335d5685a459fc391f699f" name="data/qrv11_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="8d19fa72869d0cca2f51e7abe6f16d88" name="data/qrv11_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="cfb105ae71405407291ad8c745a3cf4c" name="data/qrv11_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="cfd61eab07368d03d3c4e4a60ad204e9" name="data/qrv11_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="f5f64b95ec41def2d7ce850e5022a69d" name="data/qrv12_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="1ee1ab3299b8fe5d8b0898b80fe127eb" name="data/qrv12_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="fb45b5d97f70cd014b4b3c2a81eef22b" name="data/qrv12_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="24095070eb04c77b648fd8f50f0e5fb0" name="data/qrv12_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="dacf717ef4feb1cfcd66e061e04d70f8" name="data/qrv13_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="62c932b58c5ac103fd224455e27369c5" name="data/qrv13_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="5f35a603c30a98d050706982c91c1716" name="data/qrv13_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="44d6eebfe1f2f401ea27a1c5c8ffdc4e" name="data/qrv13_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="07045310b7440f53d7c2b07877581ea6" name="data/qrv14_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="23662a5219364d9ffea6e3d1569d96a3" name="data/qrv14_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="996ffb58042bc4c5122db7fbff2edfc9" name="data/qrv14_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="4db54b26ded2670518471dd5c78576a6" name="data/qrv14_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="97aff0d35593c126b9628821172b7344" name="data/qrv15_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="efedc2dd70723c70bee5c3a1a12d871a" name="data/qrv15_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="e31bc4d78351ce885e71f8895ad91c50" name="data/qrv15_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="9da8e927115fd25247eea72014333fb3" name="data/qrv15_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="d3a2b8f921c687732ada8ab857146b99" name="data/qrv16_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="76ff659b94a3c070540758d37abf3fe2" name="data/qrv16_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="757e11070296f4c75d59a7c091c198c6" name="data/qrv16_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="ad3df38436031e5c51f786247aeeee3d" name="data/qrv16_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="e6a1b120bc4ccb65b7993c32d355f7f5" name="data/qrv17_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="48220967499c2e599f6d87b55abf173a" name="data/qrv17_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="810158c909be1ea8948d39348b7c4bff" name="data/qrv17_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="fe276d559bab2b48bc381385bfd40ffd" name="data/qrv17_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="1a29b2f4c8654b096c4427fd773f4a76" name="data/qrv18_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="010349abadfc41bd775d7792e8c9a332" name="data/qrv18_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="e28f1ce199419c8e46ff89327a545df3" name="data/qrv18_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="23a6888affd52750c9dee0939911d8f6" name="data/qrv18_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="4099bb20eb4b6f402d7467cf7b9a8e3d" name="data/qrv19_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="d92dfe145537125daee1f1ab86a6a882" name="data/qrv19_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="49a9e6e921d2acd1df1f3c0cfc58751f" name="data/qrv19_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="835ea4ff6cc959b017350a922f592d7b" name="data/qrv19_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="e5c3ea7ca69ec7ec7c561c6f24a3fd04" name="data/qrv20_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="1000b2fd16846ae2fad9189ae1744d2e" name="data/qrv20_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="f9468b3b5e4c2e0ccb33624f268fe909" name="data/qrv20_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="db52f8d8b663ce382cec7d5c8a368774" name="data/qrv20_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="183ef150b47f8710141037e99aaf6ef4" name="data/qrv21_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="dd0b991dcd9eadb684b8001785b87c75" name="data/qrv21_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="343076701f31c5cb8ff568c06582cbb1" name="data/qrv21_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="e30f03954d2db0c1bd5a70964a0ad22c" name="data/qrv21_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="d8fa0b40d1044488a631120299510206" name="data/qrv22_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="b22adbb368bf4b2cc9cd851668a03b86" name="data/qrv22_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="2f84ec411f55788b4ab54e905e196589" name="data/qrv22_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="f1c2067f5cfe6bad97a11f372ac7f1e7" name="data/qrv22_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="7a823265dce91db0931e861375d380ba" name="data/qrv23_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="4826d30b639ba5d61a552745fcd62b58" name="data/qrv23_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="f23f1fbc6346d86376f19216cc88ef94" name="data/qrv23_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="a5fe13de439e124b7b94cee89c65c685" name="data/qrv23_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="e15fd5e60b1058450e59440e8aa4bf63" name="data/qrv24_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="7b0827125e48e7492763ed833a39393f" name="data/qrv24_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="6deadeab3a94178cb7899055a3e6a04b" name="data/qrv24_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="ac79fdc5528e9ba86ecc2e2056962121" name="data/qrv24_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="d883d7de65f4b1854feec332c96fd006" name="data/qrv25_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="936874fbdf35d4fdc0e92ea4626514bf" name="data/qrv25_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="78265e491416c9fa368211df45360b25" name="data/qrv25_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="fa1994d3ec04359f6f57b22abfe97a00" name="data/qrv25_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="9410c2ff89a2618e882525cf772230c5" name="data/qrv26_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="00fcb4a11875e9642e6f61352712b476" name="data/qrv26_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="bfaea48e2d4b2398a815615600eab8ec" name="data/qrv26_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="5047c6cbd0f15edf96decd63ba42d533" name="data/qrv26_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="e89f26a4570f4b90bda256c7b444f86a" name="data/qrv27_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="c2c65711bbe5d89bab0fd9d848b5b25e" name="data/qrv27_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="120ae5671474372c67f008d67ac2b4c6" name="data/qrv27_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="f85f4d077be75843b120308e75c6d387" name="data/qrv27_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="d5aee4579dc24927621f53e063190578" name="data/qrv28_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="7867528b16178f76413ac3c98c2273ec" name="data/qrv28_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="c1625d91304370b19708807eb486f350" name="data/qrv28_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="68aacdc3506d63431fd6c50b2bdd82aa" name="data/qrv28_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="b69d539ad4c2a823b65a6d17232060f7" name="data/qrv29_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="2949e223263bda83f94fc31502e2fbb0" name="data/qrv29_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="61e2eecd3d48de023fe10bae1d25d1b3" name="data/qrv29_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="eac90182748f21c20575d19780da0f41" name="data/qrv29_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="ea6690c40ad1b3887d4da08c18f2aa71" name="data/qrv30_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="2bc3253da1824598a1c8b3677178d909" name="data/qrv30_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="0ed677a3a101984f6c7ae9a577524dbc" name="data/qrv30_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="e0b40c7f01a4c8cb097b98104678aee9" name="data/qrv30_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="697b9bc887486d4d9bc860d76212460f" name="data/qrv31_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="b2b35a7339835de658b9c38b630888f3" name="data/qrv31_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="c75c4c1fab81490b82f1788b5646eeb8" name="data/qrv31_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="5297c3a66b3613711d84c0adb3243ad6" name="data/qrv31_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="035116c3157270518b4a056e34a39c13" name="data/qrv32_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="638021296606d833c0b131f7e1441f1f" name="data/qrv32_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="6d1a450bd78ca255229a6e4ab99cfb26" name="data/qrv32_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="5536c66c8f53cb299c1bb65828edb7b6" name="data/qrv32_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="55dffa0179876d222d27af44f35d5080" name="data/qrv33_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="4074cc9cae730d3c0d89c961b1d1e81e" name="data/qrv33_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="a756675c8e1e37872afbf55d0b92c570" name="data/qrv33_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="4ec29952b3a2280ad746bb884cfbbaba" name="data/qrv33_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="c226ba8b4041ab2775c8bcd7c18cba9f" name="data/qrv34_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="201c2b1f2813ef8c406ce7d64c0b0294" name="data/qrv34_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="13d9a0446f1d4ca7a431b7ec142f8379" name="data/qrv34_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="0b679ea186860f87cb0c714ff3f81498" name="data/qrv34_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="fdbd80953cdc3ebc40cf8b4589b1e43e" name="data/qrv35_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="b7508b8f069d5c471360b3bb8751975d" name="data/qrv35_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="c6d5de0fe5403b077fe33b640ea3865a" name="data/qrv35_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="87c07a8fda5057b4521adc1e2ae544ff" name="data/qrv35_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="c342dfddc2dce326020d7327f7a7d65c" name="data/qrv36_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="a1d11fce22d5a0f3590ef60deab2ddcc" name="data/qrv36_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="052639354e6ded4d47a5507bb1888638" name="data/qrv36_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="89d098fff6517f0f516352f7d2e8af4a" name="data/qrv36_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="2db2e1aa0cea2c7699a3b98048492451" name="data/qrv37_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="c48d08652f9b20741cddcdb144ddb476" name="data/qrv37_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="a0cbc6b60c243dac7ef7b07aeeea4c3a" name="data/qrv37_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="138affc1056ce4f29c18298c671cd7a8" name="data/qrv37_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="9e5098ed03aff8c73c43991cdac43b12" name="data/qrv38_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="0c3f3266b3c13c6dcad09b641c3e515c" name="data/qrv38_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="1e4110ad3b214195e861eefe915d2709" name="data/qrv38_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="34808fb088cad60aa64904146ef1938d" name="data/qrv38_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="b81d501b8bdf9efe7a3bcd0ec5894da2" name="data/qrv39_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="3ce3259e7f1a166585a0d2e6f0ac36d6" name="data/qrv39_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="b2250ce9448cca648423a6405ea96601" name="data/qrv39_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="cbf1319703d02c2cc68fa0b32fa9ade5" name="data/qrv39_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="d71c4fe5dd8c18edec6e7f350be24e10" name="data/qrv40_0.dat" role="data" />
+   <file baseinstalldir="." md5sum="68f739fd2ee538abf109dd9c9e22ff0b" name="data/qrv40_1.dat" role="data" />
+   <file baseinstalldir="." md5sum="9ade775e89ebf03ea58c9b6cfccbe148" name="data/qrv40_2.dat" role="data" />
+   <file baseinstalldir="." md5sum="54a4fcddf1f0a9daa5e3810638247968" name="data/qrv40_3.dat" role="data" />
+   <file baseinstalldir="." md5sum="1028149aa5bf86cb7b069598c525d26c" name="data/qrvfr1.dat" role="data" />
+   <file baseinstalldir="." md5sum="df7c27a000e7d882776516d4c28ffce0" name="data/qrvfr2.dat" role="data" />
+   <file baseinstalldir="." md5sum="1e83bf90b182277b88ad6537cb7332d4" name="data/qrvfr3.dat" role="data" />
+   <file baseinstalldir="." md5sum="1aa3d5c25c45deb4f7a779f456c4dd29" name="data/qrvfr4.dat" role="data" />
+   <file baseinstalldir="." md5sum="1afa2f4c1beb895a7cef2b756f19744f" name="data/qrvfr5.dat" role="data" />
+   <file baseinstalldir="." md5sum="80e66774322c0ee17af5b7f79271b135" name="data/qrvfr6.dat" role="data" />
+   <file baseinstalldir="." md5sum="33b9b1b7c2b8599e015653b323a5b932" name="data/qrvfr7.dat" role="data" />
+   <file baseinstalldir="." md5sum="9882914e64840dd42d2d9fd0bf2c1579" name="data/qrvfr8.dat" role="data" />
+   <file baseinstalldir="." md5sum="53b563806bc4b09a16e7e4bca668b246" name="data/qrvfr9.dat" role="data" />
+   <file baseinstalldir="." md5sum="09349cc038097725c1964baaa172e1c4" name="data/qrvfr10.dat" role="data" />
+   <file baseinstalldir="." md5sum="80904f1185fa1146844a2fded0f6c2ef" name="data/qrvfr11.dat" role="data" />
+   <file baseinstalldir="." md5sum="dfeb3b777cf46d202496312d5a418472" name="data/qrvfr12.dat" role="data" />
+   <file baseinstalldir="." md5sum="d80a5e799793d56ade7a24adc985ebdc" name="data/qrvfr13.dat" role="data" />
+   <file baseinstalldir="." md5sum="a4813a6b443f2e70126e7451ba4072a7" name="data/qrvfr14.dat" role="data" />
+   <file baseinstalldir="." md5sum="721e82139d74d9d5a6faf508f898d0f8" name="data/qrvfr15.dat" role="data" />
+   <file baseinstalldir="." md5sum="7e5cd46263ba3a7c9b538f3feee62969" name="data/qrvfr16.dat" role="data" />
+   <file baseinstalldir="." md5sum="561a25c4a2f0bda27a77fce2cc32f6c1" name="data/qrvfr17.dat" role="data" />
+   <file baseinstalldir="." md5sum="5bca7eb522e507d680eef7a5721d0c7e" name="data/qrvfr18.dat" role="data" />
+   <file baseinstalldir="." md5sum="38c59ed5f043a9a1a6a6140e37fea35e" name="data/qrvfr19.dat" role="data" />
+   <file baseinstalldir="." md5sum="d30ed90e014ec383739658656fd46bc6" name="data/qrvfr20.dat" role="data" />
+   <file baseinstalldir="." md5sum="cc4d244039c4d9aec279524105b448cf" name="data/qrvfr21.dat" role="data" />
+   <file baseinstalldir="." md5sum="befe8822b2537dbf0adc12ed98a4c55e" name="data/qrvfr22.dat" role="data" />
+   <file baseinstalldir="." md5sum="90c0827d2410aa98ff9107f5c263bf3e" name="data/qrvfr23.dat" role="data" />
+   <file baseinstalldir="." md5sum="7442b3175f6c6fd118aca686a9691f45" name="data/qrvfr24.dat" role="data" />
+   <file baseinstalldir="." md5sum="ac76de7ce4c27c19f86f78d28ab4f718" name="data/qrvfr25.dat" role="data" />
+   <file baseinstalldir="." md5sum="e26608eeac1744a394433666f0264573" name="data/qrvfr26.dat" role="data" />
+   <file baseinstalldir="." md5sum="ec73ab00de678d7f470d9e4de912b142" name="data/qrvfr27.dat" role="data" />
+   <file baseinstalldir="." md5sum="84547454aa1c7fae12a2346bb771cfba" name="data/qrvfr28.dat" role="data" />
+   <file baseinstalldir="." md5sum="4c1af56896bfcc75211dd2267303b50a" name="data/qrvfr29.dat" role="data" />
+   <file baseinstalldir="." md5sum="06a23c08e771b4e1906d4ab456f924ab" name="data/qrvfr30.dat" role="data" />
+   <file baseinstalldir="." md5sum="efd3385ee97d6005d4253be8d433bb2e" name="data/qrvfr31.dat" role="data" />
+   <file baseinstalldir="." md5sum="b456161484b24d0fc578d82a02e26c56" name="data/qrvfr32.dat" role="data" />
+   <file baseinstalldir="." md5sum="dbfbf5ad63d7f5fa8caec2497a253037" name="data/qrvfr33.dat" role="data" />
+   <file baseinstalldir="." md5sum="c6440810acaca5caa0977c8a4f37d141" name="data/qrvfr34.dat" role="data" />
+   <file baseinstalldir="." md5sum="1b71ae4cef8518a8f62b1643d927c656" name="data/qrvfr35.dat" role="data" />
+   <file baseinstalldir="." md5sum="b94c44455c4a136ca5ad271354cfb8bf" name="data/qrvfr36.dat" role="data" />
+   <file baseinstalldir="." md5sum="b7dde0ec2f3ebbc9cec775335355bd56" name="data/qrvfr37.dat" role="data" />
+   <file baseinstalldir="." md5sum="cf7c50cc89129487b5f77c27532906da" name="data/qrvfr38.dat" role="data" />
+   <file baseinstalldir="." md5sum="b1056542573d722b8c8f1427304ab661" name="data/qrvfr39.dat" role="data" />
+   <file baseinstalldir="." md5sum="8c511bcf0c52d54b430649499aac4663" name="data/qrvfr40.dat" role="data" />
+   <file baseinstalldir="." md5sum="33c213414bc8cf28d62fffdf30cbfde5" name="data/rsc7.dat" role="data" />
+   <file baseinstalldir="." md5sum="6007efa64ff0b7d7df4f2d01e5e9b969" name="data/rsc10.dat" role="data" />
+   <file baseinstalldir="." md5sum="49e68120dfef7b82e851c6958ea7e7ad" name="data/rsc13.dat" role="data" />
+   <file baseinstalldir="." md5sum="5d0bae05f75be7a87b04b76b3784ea71" name="data/rsc15.dat" role="data" />
+   <file baseinstalldir="." md5sum="8063ce997c85acf3e684a0185534f64c" name="data/rsc16.dat" role="data" />
+   <file baseinstalldir="." md5sum="d3a6846961c6085395cffde9cf7b3cc2" name="data/rsc17.dat" role="data" />
+   <file baseinstalldir="." md5sum="9b9d7b1d6972d8081ddc2d2eafb5ad7e" name="data/rsc18.dat" role="data" />
+   <file baseinstalldir="." md5sum="acd6abae6bf7d12ae3f7e8052502119b" name="data/rsc20.dat" role="data" />
+   <file baseinstalldir="." md5sum="0ac6534b9052c828c6311a1eee472d0c" name="data/rsc22.dat" role="data" />
+   <file baseinstalldir="." md5sum="18e2c68e855ba2180229558fa5c46583" name="data/rsc24.dat" role="data" />
+   <file baseinstalldir="." md5sum="75b2afb6da24370e230abcb160d58fd8" name="data/rsc26.dat" role="data" />
+   <file baseinstalldir="." md5sum="748a72ecb42b656a490e168e6ffb694c" name="data/rsc28.dat" role="data" />
+   <file baseinstalldir="." md5sum="a85a7cea19f0671ee9e713078bffd938" name="data/rsc30.dat" role="data" />
+   <file baseinstalldir="." md5sum="93f60a09709fd631bb6139c1b9cfd463" name="data/rsc32.dat" role="data" />
+   <file baseinstalldir="." md5sum="b0c3521784523c35c8de7669c186ff42" name="data/rsc34.dat" role="data" />
+   <file baseinstalldir="." md5sum="e3cb27b3b060150d6d031012d05e076f" name="data/rsc36.dat" role="data" />
+   <file baseinstalldir="." md5sum="aa440e792727c8bac4bd029b0349f201" name="data/rsc40.dat" role="data" />
+   <file baseinstalldir="." md5sum="5ba0cb19a31fae3d5946c7c1c6b01e6b" name="data/rsc42.dat" role="data" />
+   <file baseinstalldir="." md5sum="ebc5f0e6264931da0162577126e07cc7" name="data/rsc44.dat" role="data" />
+   <file baseinstalldir="." md5sum="a6dc2a7b67f4aac6c6bba787b95f6290" name="data/rsc46.dat" role="data" />
+   <file baseinstalldir="." md5sum="9fe889d1371e18ab4d6d5f0bc58bdbc3" name="data/rsc48.dat" role="data" />
+   <file baseinstalldir="." md5sum="f8fb98aa279fbd821cd2891ba958c516" name="data/rsc50.dat" role="data" />
+   <file baseinstalldir="." md5sum="8e07a0d51d9e2879bf8376b0fb6ebb89" name="data/rsc52.dat" role="data" />
+   <file baseinstalldir="." md5sum="e5b31fa225b601f59051f5c0c8a14f9d" name="data/rsc54.dat" role="data" />
+   <file baseinstalldir="." md5sum="7843ce99fbb36ed16e9a12a8259eb46b" name="data/rsc56.dat" role="data" />
+   <file baseinstalldir="." md5sum="a98b5703c326f5b57f1b348825802056" name="data/rsc58.dat" role="data" />
+   <file baseinstalldir="." md5sum="aa62481592e928a21e395f9e76b6c068" name="data/rsc60.dat" role="data" />
+   <file baseinstalldir="." md5sum="f4394902dd4278fdf0f8efb601e6bc39" name="data/rsc62.dat" role="data" />
+   <file baseinstalldir="." md5sum="b73d324d397ee766e3d6169e7ee250ad" name="data/rsc64.dat" role="data" />
+   <file baseinstalldir="." md5sum="4e965a26076714dacfc675bb6aa29b5b" name="data/rsc66.dat" role="data" />
+   <file baseinstalldir="." md5sum="6760f7cdc716b5e4c1a3b246b6413d58" name="data/rsc68.dat" role="data" />
+   <file baseinstalldir="." md5sum="2c26ee7ca2d60db61ccae7aa9df72f69" name="doc/index.html" role="doc" />
+   <file baseinstalldir="." md5sum="243b725d71bb5df4a1e5920b344b86ad" name="doc/LICENSE" role="data" />
+   <file baseinstalldir="." md5sum="c21cfae37d4b3e143606de7542dc3cec" name="Image/QRCode.php" role="php">
+    <tasks:replace from="@data_dir@" to="data_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="." md5sum="186d547ff0f78744f264165a5056de0a" name="Image/QRCode/Exception.php" role="php" />
+   <file baseinstalldir="." md5sum="f914b53c65b117e7605755aee4c5d41e" name="image/b.png" role="data" />
+   <file baseinstalldir="." md5sum="c98b92697bf6f711d43ebc6f5838cc02" name="image/d.png" role="data" />
+   <file baseinstalldir="." md5sum="b6d7192ccab94973208b4570bcb30195" name="image/qrv1.png" role="data" />
+   <file baseinstalldir="." md5sum="ade0d16b8aa2630c9f66c7c90a438dc4" name="image/qrv2.png" role="data" />
+   <file baseinstalldir="." md5sum="536fd3d65717dd77f9ac4b55ed0272a8" name="image/qrv3.png" role="data" />
+   <file baseinstalldir="." md5sum="9e790ee27e82f83b30c2c3316071d45c" name="image/qrv4.png" role="data" />
+   <file baseinstalldir="." md5sum="7db5b5f30d309585f9fa2132ef3a244e" name="image/qrv5.png" role="data" />
+   <file baseinstalldir="." md5sum="074f3c0e8c8ecfa37cd93808bee42cd3" name="image/qrv6.png" role="data" />
+   <file baseinstalldir="." md5sum="cd8cfdaa8e5607692160588e1b96f3f3" name="image/qrv7.png" role="data" />
+   <file baseinstalldir="." md5sum="78f568d89ab686b961e4ed9d4730f44c" name="image/qrv8.png" role="data" />
+   <file baseinstalldir="." md5sum="e312a4d7f9551650518de8bac51ee4ba" name="image/qrv9.png" role="data" />
+   <file baseinstalldir="." md5sum="6d88d1ff80ee4a9e414724d46c81da61" name="image/qrv10.png" role="data" />
+   <file baseinstalldir="." md5sum="ad1100da380f88016ad32ea795b18595" name="image/qrv11.png" role="data" />
+   <file baseinstalldir="." md5sum="ce4398b67a7576d765597eae9b1e00cc" name="image/qrv12.png" role="data" />
+   <file baseinstalldir="." md5sum="9c95f4cbae9ca460b92dcaa04e6f502b" name="image/qrv13.png" role="data" />
+   <file baseinstalldir="." md5sum="eb717585513b144426ef1a6352e09b58" name="image/qrv14.png" role="data" />
+   <file baseinstalldir="." md5sum="c236295b47bc3cedf3e4f443aee34115" name="image/qrv15.png" role="data" />
+   <file baseinstalldir="." md5sum="fce23fdab3b9549050fd12375031effd" name="image/qrv16.png" role="data" />
+   <file baseinstalldir="." md5sum="fb36effcef64921fec24fb209452eb78" name="image/qrv17.png" role="data" />
+   <file baseinstalldir="." md5sum="0a5a209ff03e05005e8021a980c299a4" name="image/qrv18.png" role="data" />
+   <file baseinstalldir="." md5sum="9bd966e64d734eeb58a3eae9763fd53b" name="image/qrv19.png" role="data" />
+   <file baseinstalldir="." md5sum="d81bb2c5a1b2fced1e8a375af96b28e4" name="image/qrv20.png" role="data" />
+   <file baseinstalldir="." md5sum="15f25a7b506470c6059515031268bf9e" name="image/qrv21.png" role="data" />
+   <file baseinstalldir="." md5sum="4b5fd4c7008fbe5e6c8522c5cea00f91" name="image/qrv22.png" role="data" />
+   <file baseinstalldir="." md5sum="e61698779f9e718a23c69d85ba9af4ed" name="image/qrv23.png" role="data" />
+   <file baseinstalldir="." md5sum="1801134e852658ae4872cfe69d36d0e0" name="image/qrv24.png" role="data" />
+   <file baseinstalldir="." md5sum="50604b176fd701f6a95b9de5b28a19ac" name="image/qrv25.png" role="data" />
+   <file baseinstalldir="." md5sum="754dce53eb427d92ec9840ce58cdf222" name="image/qrv26.png" role="data" />
+   <file baseinstalldir="." md5sum="65d0496082676bfd6a3a1e1b5fab4c35" name="image/qrv27.png" role="data" />
+   <file baseinstalldir="." md5sum="4cce87efe0179c2f9ebfb19af79a79cb" name="image/qrv28.png" role="data" />
+   <file baseinstalldir="." md5sum="16f350b0cd1dd778235fa407b23b1003" name="image/qrv29.png" role="data" />
+   <file baseinstalldir="." md5sum="c192843ae321be517c9a234e8d6e0534" name="image/qrv30.png" role="data" />
+   <file baseinstalldir="." md5sum="33c123e015bcfe6675cd8887d100a907" name="image/qrv31.png" role="data" />
+   <file baseinstalldir="." md5sum="f7e86b3e268685321e3d21dbe1a4f720" name="image/qrv32.png" role="data" />
+   <file baseinstalldir="." md5sum="7980e4d07dff1b007975f60ebc397541" name="image/qrv33.png" role="data" />
+   <file baseinstalldir="." md5sum="ff782877489404d5ee783eecbf353b92" name="image/qrv34.png" role="data" />
+   <file baseinstalldir="." md5sum="c8df6c79d457d58b82502e3530a1c6f9" name="image/qrv35.png" role="data" />
+   <file baseinstalldir="." md5sum="b4370c820a51025ac90190a960e7c933" name="image/qrv36.png" role="data" />
+   <file baseinstalldir="." md5sum="a3639ccefc3894109ceaad914b2375f9" name="image/qrv37.png" role="data" />
+   <file baseinstalldir="." md5sum="84baa21235131f06fcc3a37f2c8523cd" name="image/qrv38.png" role="data" />
+   <file baseinstalldir="." md5sum="9200389ce87424a6936596d77096b5fd" name="image/qrv39.png" role="data" />
+   <file baseinstalldir="." md5sum="2ca03320067958a96fe99c28d5d250f3" name="image/qrv40.png" role="data" />
+   <file baseinstalldir="." md5sum="797c3355250f8ab817c3aba438542679" name="tests/Image/QRCodeTest.php" role="test" />
+   <file baseinstalldir="." md5sum="0ec28ca33488c9d400092ad06117ddf2" name="tests/Image/QRCode/AllTests.php" role="test" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+   <extension>
+    <name>gd</name>
+   </extension>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2009-11-29</date>
+   <license uri="http://www.gnu.org/licenses/lgpl.html">LGPL</license>
+   <notes>
+First initial alpha release.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2009-12-26</date>
+   <license uri="http://www.gnu.org/licenses/lgpl.html">LGPL</license>
+   <notes>
+First initial release.
+   </notes>
+  </release>
+ </changelog>
+</package>

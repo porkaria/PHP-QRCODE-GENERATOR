@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Image_QRCode examples</title>
+</head>
+<body>
+
+<h2>Basic usage</h2>
+<p>The following example outputs a PNG image at the default size, medium error correction.</p>
+<pre>
+  &lt;?php
+    require_once("Image/QRCode.php");
+    
+    $qr = new Image_QRCode();
+    $qr->makeCode("Hello, world");
+  ?&gt;
+</pre>
+
+<h2>Changing the output image type</h2>
+<p>This example will output a JPEG file instead of a PNG.</p>
+<pre>
+  &lt;?php
+    require_once("Image/QRCode.php");
+    
+    $qr = new Image_QRCode();
+    
+    $options = array(
+      "image_type" => "jpeg"
+    );
+    $qr->makeCode("Hello, world", $options);
+  ?&gt;
+</pre>
+
+<h2>Returning an object instead of outputting</h2>
+<p>If you need the GD object returned instead of outputting direct to the browser, use the following example.</p>
+<pre>
+  &lt;?php
+    require_once("Image/QRCode.php");
+    
+    $qr = new Image_QRCode();
+    
+    $options = array(
+      "output_type" => "return"
+    );
+    $gd_object = $qr->makeCode("Hello, world", $options);
+  ?&gt;
+</pre>
+
+<h2>Altering the error correction level</h2>
+<p>
+  Image_QRCode supports 4 error correction levels:
+  <ul>
+    <li>L: 7% error level</li>
+    <li>M: 15% error level</li>
+    <li>Q: 25% error level</li>
+    <li>H: 30% error level</li>
+  </ul>
+  The default is "M".
+</p>
+<pre>
+  &lt;?php
+    require_once("Image/QRCode.php");
+    
+    $qr = new Image_QRCode();
+    
+    $options = array(
+      "error_correct" => "H"
+    );
+    $qr->makeCode("Hello, world", $options);
+  ?&gt;
+</pre>
+
+<h2>Changing the module (image) size</h2>
+<p>The size of the generated QR image can be adjusted as follows.  This does not affect error correction or similar.</p>
+<pre>
+  &lt;?php
+    require_once("Image/QRCode.php");
+    
+    $qr = new Image_QRCode();
+    
+    $options = array(
+      "module_size" => 30 
+    );
+    $qr->makeCode("Hello, world", $options);
+  ?&gt;
+</pre>
+
+<h2>Changing the code version</h2>
+<p>The version of the QR code can be altered by passing options to the constructor.  Note that in most cases this will result in an increase in image size.</p>
+<pre>
+  &lt;?php
+    require_once("Image/QRCode.php");
+
+	$options = array(
+	  "version" => 5
+	);    
+    $qr = new Image_QRCode($options);
+    
+    $qr->makeCode("Hello, world");
+  ?&gt;
+</pre>
+
+</body>
+</html>
